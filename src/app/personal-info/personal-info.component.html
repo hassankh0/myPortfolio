@@ -1,0 +1,17 @@
+<div class="resume-section-content">
+  <h1 class="mb-0">
+    {{person.getLName()}}
+    <span class="text-primary">{{person.getFName()}}</span>
+  </h1>
+  <div class="subheading mb-5">
+    {{person.getAddress()}} · {{person.getPhone()}} ·
+    <a href="mailto:{{person.getEmail()}}">{{person.getEmail()}}</a>
+  </div>
+  <p class="lead mb-5">{{person.getAbout()}}</p>
+  <div class="social-icons">
+    <a class="social-icon" (click)="goLinkedin()" style="cursor: pointer;"><i class="fab fa-linkedin-in"></i></a>
+    <a class="social-icon" (click)="goGitHub()" style="cursor: pointer;"><i class="fab fa-github"></i></a>
+    <a class="social-icon" (click)="goInstagram()" style="cursor: pointer;"><i class="fab fa-instagram"></i></a>
+    <a class="social-icon" (click)="goFacebook()" style="cursor: pointer;"><i class="fab fa-facebook-f"></i></a>
+  </div>
+</div>
