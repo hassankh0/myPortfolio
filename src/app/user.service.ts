@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import Person from './Person';
+import Person, { Education, Experience, Project, Skill } from './Person';
 
 @Injectable({
   providedIn: 'root'
@@ -17,11 +17,14 @@ export class UserService {
       "https://instagram.com/hassan.khalifehh",
       "27 rue Auber, 62100 Calais",
       "Étudiant enthousiaste en génie informatique désireux de contribuer à la réussite de l’équipe au travail acharné, attention au détail et excellentes compétences organisationnelles. Compréhension claire de la planification de projet et de l’attribution des tâches. Motivation à apprendre, à progresser et à exceller dans mon domaine.",
+      [new Experience('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), true, 'asdsad', [new Skill('Software', 'Angular', 80, '')]), new Experience('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), false, 'asdsad', [])],
       [],
+      [new Education('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), true, 'asdsad', [new Skill('Software', 'Angular', 80, '')]), new Education('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), false, 'asdsad', [])],
       [],
-      [],
-      [],
-      [],
+      [new Project('Gallery app', 'web', 'https://hassankh0.github.io/Gallery', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),
+      new Project('Gallery mobile', 'mobile', '', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),
+      new Project('Gallery app', 'web', 'https://hassankh0.github.io/Gallery', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),
+      new Project('Gallery mobile', 'mobile', '', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', '')],
       []);
 
   }

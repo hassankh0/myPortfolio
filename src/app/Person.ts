@@ -67,7 +67,7 @@ export default class Person {
 
 }
 
-class Experience {
+export class Experience {
   constructor(private type: string,
     private companyName: string,
     private cityName: string,
@@ -107,7 +107,7 @@ class Experience {
   }
 }
 
-class Skill {
+export class Skill {
   constructor(private skillType: string, // can be a Language or a soft Skill
     private skillName: string,
     private avg: number,
@@ -127,21 +127,47 @@ class Skill {
   }
 }
 
-class Certificate {
-  private title: string;
-  private companyName: string;
-  private date: Date;
+export class Certificate {
+  constructor(private title: string,
+  private companyName: string,
+  private date: Date) { }
+
+  public getTitle = () => {
+    return this.title;
+  }
+  public getCompanyName = () => {
+    return this.companyName;
+  }
+  public getDate = ()=> {
+    return this.date;
+  }
 }
 
-class Project {
-  private title: string;
-  private type: string;
-  private url: string;
-  private photos: string[];
-  private description: string[];
+export class Project {
+  constructor(private title: string,
+    private type: string,
+    private url: string,
+    private photos: string,
+    private description: string) { }
+
+  public getTitle = () => {
+    return this.title;
+  }
+  public getType = () => {
+    return this.type;
+  }
+  public getUrl = () => {
+    return this.url;
+  }
+  public getPhotos = () => {
+    return this.photos;
+  }
+  public getDescription = () => {
+    return this.description;
+  }
 }
 
-class Education {
+export class Education {
   constructor(private formation: string,
     private companyName: string,
     private cityName: string,

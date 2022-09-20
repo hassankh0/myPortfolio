@@ -1,0 +1,12 @@
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+  <div class="flex-grow-1">
+    <h3 class="mb-0">{{experience?.getType()}}</h3>
+    <div class="subheading mb-3">{{experience?.getCompanyName()}}</div>
+    <p>{{experience?.getDesription()}}</p>
+    <h5 *ngIf="experience?.getSkills().length !== 0">Compétence acquise </h5>
+    <ul>
+      <li *ngFor="let skill of experience?.getSkills()">{{skill?.getSkillName()}}</li>
+    </ul>
+  </div>
+  <div class="flex-shrink-0"><span class="text-primary">{{experience?.getDateEnd() | date:'MMMM yyyy'}} - {{experience?.getPresent() ? 'Present' : experience?.getDateStart() | date:'MMMM yyyy'}}</span></div>
+</div>

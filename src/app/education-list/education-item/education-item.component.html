@@ -1,0 +1,13 @@
+<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+  <div class="flex-grow-1">
+    <h3 class="mb-0">{{education?.getFormation()}}</h3>
+    <div class="subheading mb-3">{{education?.getCompanyName()}}</div>
+    <p>{{education?.getDesription()}}</p>
+    <h5 *ngIf="education?.getSkills().length !== 0">Compétence acquise </h5>
+    <ul>
+      <li *ngFor="let skill of education?.getSkills()">{{skill?.getSkillName()}}</li>
+    </ul>
+  </div>
+  <div class="flex-shrink-0"><span class="text-primary">{{education?.getDateStart() | date:'MMMM yyyy'}} -
+      {{education?.getPresent() ? 'Present' : education?.getDateEnd() | date:'MMMM yyyy'}}</span></div>
+</div>
