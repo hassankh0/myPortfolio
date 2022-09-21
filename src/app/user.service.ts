@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import Person, { Education, Experience, Project, Skill } from './Person';
+import Person, { Certificate, Education, Experience, Project, Skill } from './Person';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +20,7 @@ export class UserService {
       [new Experience('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), true, 'asdsad', [new Skill('Software', 'Angular', 80, '')]), new Experience('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), false, 'asdsad', [])],
       [],
       [new Education('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), true, 'asdsad', [new Skill('Software', 'Angular', 80, '')]), new Education('s', 's', 's', 123, new Date('2020-11-12'), new Date('2020-10-12'), false, 'asdsad', [])],
-      [],
+      [new Certificate('CCNA1', 'Cisco', new Date('2018-06-01')), new Certificate('CCNA2', 'Cisco', new Date('2018-12-01'))],
       [new Project('Gallery app', 'web', 'https://hassankh0.github.io/Gallery', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),
       new Project('Gallery mobile', 'mobile', '', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),
       new Project('Gallery app', 'web', 'https://hassankh0.github.io/Gallery', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmBXacHl42Sou8v1X4E1O1t9LgBOb62V2T1g&usqp=CAU', ''),

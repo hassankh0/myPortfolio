@@ -11,9 +11,9 @@ export class EducationListComponent implements OnInit {
 
   educations: Education[];
   constructor(private UserSrv: UserService) {
-    this.educations = this.UserSrv.getPerson().getEducations();
   }
   ngOnInit(): void {
+    this.educations = this.UserSrv.getPerson().getEducations();
   }
 
 }

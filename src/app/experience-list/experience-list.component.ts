@@ -11,10 +11,10 @@ export class ExperienceListComponent implements OnInit {
 
   experiences: Experience[];
   constructor(private UserSrv: UserService) {
-    this.experiences = this.UserSrv.getPerson().getExperiences();
   }
 
   ngOnInit(): void {
+    this.experiences = this.UserSrv.getPerson().getExperiences();
   }
 
 }

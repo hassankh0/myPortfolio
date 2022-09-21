@@ -12,6 +12,8 @@ import { EducationItemComponent } from './education-list/education-item/educatio
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectItemComponent } from './projects-list/project-item/project-item.component';
 import { ProjectsFilterPipe } from './projects-list/projects-filter.pipe';
+import { CertificationsListComponent } from './certifications-list/certifications-list.component';
+import { CertificationItemComponent } from './certifications-list/certification-item/certification-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ProjectsFilterPipe } from './projects-list/projects-filter.pipe';
     EducationItemComponent,
     ProjectsListComponent,
     ProjectItemComponent,
-    ProjectsFilterPipe
+    ProjectsFilterPipe,
+    CertificationsListComponent,
+    CertificationItemComponent
   ],
   imports: [
     BrowserModule,
