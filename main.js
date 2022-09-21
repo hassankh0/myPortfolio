@@ -817,7 +817,7 @@ PersonalInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "JUNIOR SOFTWARE ENGINEER");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "JUNIOR SOFTWARE ENGINEER \u00B7 ENGINEERING STUDENT");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10);
