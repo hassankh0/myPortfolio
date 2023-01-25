@@ -655,7 +655,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_user_service__WEBPACK_IMPORTED_MODULE_1__["UserService"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 67, vars: 0, consts: [[1, "container-fluid", "p-0"], ["id", "about", 1, "resume-section"], [1, "m-0"], ["id", "experience", 1, "resume-section"], [1, "col-12"], ["id", "education", 1, "resume-section"], ["id", "skills", 1, "resume-section"], [1, "resume-section-content"], [1, "mb-5"], [1, "subheading", "mb-3"], [1, "list-inline", "dev-icons"], [1, "list-inline-item"], [1, "fab", "fa-html5"], [1, "fab", "fa-css3-alt"], [1, "fab", "fa-js-square"], [1, "fab", "fa-angular"], [1, "fab", "fa-react"], [1, "fab", "fa-node-js"], [1, "fab", "fa-sass"], [1, "fab", "fa-less"], [1, "fab", "fa-wordpress"], [1, "fab", "fa-gulp"], [1, "fab", "fa-grunt"], [1, "fab", "fa-npm"], [1, "fa-ul", "mb-0"], [1, "fa-li"], [1, "fas", "fa-check"], ["id", "project", 1, "resume-section"], ["id", "certifications", 1, "resume-section"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 23, vars: 0, consts: [[1, "container-fluid", "p-0"], ["id", "about", 1, "resume-section"], [1, "m-0"], ["id", "experience", 1, "resume-section"], [1, "col-12"], ["id", "education", 1, "resume-section"], ["id", "skills", 1, "resume-section"], [1, "resume-section-content"], [1, "mb-5"], ["id", "project", 1, "resume-section"], ["id", "certifications", 1, "resume-section"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-navbar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "section", 1);
@@ -675,85 +675,18 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "h2", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Skills");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Programming Languages & Tools");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "ul", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "i", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "i", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "i", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "i", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "i", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "i", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "i", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "i", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "i", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "i", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Workflow");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "ul", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "span", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "i", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, " Mobile-First, Responsive Design ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "span", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "i", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, " Cross Browser Testing & Debugging ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "span", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "i", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " Cross Functional Teams ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "span", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](59, "i", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " Agile Development & Scrum ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "...STILL NOT AVAILABLE");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "hr", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "section", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "app-projects-list", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "hr", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "section", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](63, "app-projects-list", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "hr", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "section", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](66, "app-certifications-list", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "hr", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "section", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "app-certifications-list", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_2__["NavbarComponent"], _personal_info_personal_info_component__WEBPACK_IMPORTED_MODULE_3__["PersonalInfoComponent"], _experience_list_experience_list_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceListComponent"], _education_list_education_list_component__WEBPACK_IMPORTED_MODULE_5__["EducationListComponent"], _projects_list_projects_list_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsListComponent"], _certifications_list_certifications_list_component__WEBPACK_IMPORTED_MODULE_7__["CertificationsListComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
@@ -1159,7 +1092,7 @@ class NavbarComponent {
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_user_service__WEBPACK_IMPORTED_MODULE_1__["UserService"])); };
-NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 28, vars: 2, consts: [["id", "sideNav", 1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-primary", "fixed-top"], ["href", "#about", 1, "navbar-brand", "js-scroll-trigger"], [1, "d-block", "d-lg-none"], [1, "d-none", "d-lg-block"], ["src", "./assets/profile.jpg", "alt", "...", 1, "img-fluid", "img-profile", "rounded-circle", "mx-auto", "mb-2"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarResponsive", "aria-controls", "navbarResponsive", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarResponsive", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["href", "#about", 1, "nav-link", "js-scroll-trigger"], ["href", "#experience", 1, "nav-link", "js-scroll-trigger"], ["href", "#education", 1, "nav-link", "js-scroll-trigger"], ["href", "#skills", 1, "nav-link", "js-scroll-trigger"], ["href", "#project", 1, "nav-link", "js-scroll-trigger"], ["href", "#certifications", 1, "nav-link", "js-scroll-trigger"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 28, vars: 2, consts: [["id", "sideNav", 1, "navbar", "navbar-expand-lg", "navbar-dark", "bg-primary", "fixed-top"], ["href", "#about", 1, "navbar-brand", "js-scroll-trigger"], [1, "d-block", "d-lg-none"], [1, "d-none", "d-lg-block"], ["src", "../assets/profile.jpg", "alt", "...", 1, "img-fluid", "img-profile", "rounded-circle", "mx-auto", "mb-2"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarResponsive", "aria-controls", "navbarResponsive", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarResponsive", 1, "collapse", "navbar-collapse"], [1, "navbar-nav"], [1, "nav-item"], ["href", "#about", 1, "nav-link", "js-scroll-trigger"], ["href", "#experience", 1, "nav-link", "js-scroll-trigger"], ["href", "#education", 1, "nav-link", "js-scroll-trigger"], ["href", "#skills", 1, "nav-link", "js-scroll-trigger"], ["href", "#project", 1, "nav-link", "js-scroll-trigger"], ["href", "#certifications", 1, "nav-link", "js-scroll-trigger"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
@@ -1365,8 +1298,9 @@ class UserService {
         this.getPerson = () => {
             return this._person;
         };
-        this._person = new _Person__WEBPACK_IMPORTED_MODULE_1__["default"]("Hassan", "KHALIFE", "hassan.h.khalife@outlook.com", "+33 6 13 17 20 14", "https://linkedin.com/in/hassan-khalife-15112000", "https://github.com/hassankh0", "https://www.facebook.com/hassan.khalife.7771", "https://instagram.com/hassan.khalifehh", "27 rue Auber, 62100 Calais", "Enthusiastic software engineer student eager to contribute to team success throght hard work, attention to detail and excellent organizational skills. Clear understanding of project planning and tasks assignment .Motivated to learn, grow and excel in my domain.", [new _Person__WEBPACK_IMPORTED_MODULE_1__["Experience"]('Full-Stack Developer', 'LASeR', 'Lebanon', 0, new Date(), new Date('2021-04-01'), true, "Learning and developing the capabilities of a full-stack developer, mastering different types of technology font-end and back-end", [new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'Angular', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'NodeJS', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', '.Net Core', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'ReactJs', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'MS SQL', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'HTML, CSS, JS, TS', 80, '')]),
-            new _Person__WEBPACK_IMPORTED_MODULE_1__["Experience"]('Mobile Developer', 'ICHTUS IT', 'Lille', 59000, new Date('2022-07-18'), new Date('2022-06-18'), false, 'Learning and developing the capabilities of a  mobile developer, mastering different types of technology font-end and back-end', [new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('Front-end', 'Ionic', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('front-end', 'Angular', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'NodeJS', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'Strapi', 80, '')])], [], [new _Person__WEBPACK_IMPORTED_MODULE_1__["Education"]('Diploma in Computer Engineering', 'Eilco', 'Calais', 62100, new Date('2021-02-25'), new Date(), true, '', []),
+        this._person = new _Person__WEBPACK_IMPORTED_MODULE_1__["default"]("Hassan", "KHALIFE", "hassan.h.khalife@outlook.com", "+33 6 13 17 20 14", "https://linkedin.com/in/hassan-khalife-15112000", "https://github.com/hassankh0", "https://www.facebook.com/hassan.khalife.7771", "https://instagram.com/hassan.khalifehh", "27 rue Auber, 62100 Calais", "Enthusiastic software engineer student eager to contribute to team success throght hard work, attention to detail and excellent organizational skills. Clear understanding of project planning and tasks assignment .Motivated to learn, grow and excel in my domain.", [new _Person__WEBPACK_IMPORTED_MODULE_1__["Experience"]('Full-Stack Developer', 'LASeR', 'Lebanon', 0, new Date('2022-11-01'), new Date('2021-04-01'), false, "Learning and developing the capabilities of a full-stack developer, mastering different types of technology font-end and back-end", [new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'Angular', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'NodeJS', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', '.Net Core', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'ReactJs', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'MS SQL', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('web', 'HTML, CSS, JS, TS', 80, '')]),
+            new _Person__WEBPACK_IMPORTED_MODULE_1__["Experience"]('Mobile Developer', 'ICHTUS IT', 'Lille', 59000, new Date('2022-07-18'), new Date('2022-06-18'), false, 'Learning and developing the capabilities of a  mobile developer, mastering different types of technology font-end and back-end', [new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('Front-end', 'Ionic', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('front-end', 'Angular', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'NodeJS', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'Strapi', 80, '')]),
+            new _Person__WEBPACK_IMPORTED_MODULE_1__["Experience"]('Full-Stack Developer', 'ICHTUS IT', 'Lille', 59000, new Date('2023-02-13'), new Date('2023-01-04'), true, 'Learning and developing the capabilities of a  mobile developer, mastering different types of technology font-end and back-end', [new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('Front-end', 'Ionic', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('front-end', 'ReactJs', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'NodeJS', 80, ''), new _Person__WEBPACK_IMPORTED_MODULE_1__["Skill"]('back-end', 'MySql', 80, '')])], [], [new _Person__WEBPACK_IMPORTED_MODULE_1__["Education"]('Diploma in Computer Engineering', 'Eilco', 'Calais', 62100, new Date('2021-02-25'), new Date(), true, '', []),
             new _Person__WEBPACK_IMPORTED_MODULE_1__["Education"]('Software Engineering', 'Antonine University', 'Baabda, Lebanon', 0, new Date('2018-09-01'), new Date('2020-12-23'), false, '', [])], [new _Person__WEBPACK_IMPORTED_MODULE_1__["Certificate"]('CCNA1', 'Cisco', new Date('2019-06-01')),
             new _Person__WEBPACK_IMPORTED_MODULE_1__["Certificate"]('CCNA2', 'Cisco', new Date('2019-12-01')),
             new _Person__WEBPACK_IMPORTED_MODULE_1__["Certificate"]('CCNA3', 'Cisco', new Date('2020-05-01')),
